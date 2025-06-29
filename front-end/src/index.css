@@ -1,0 +1,32 @@
+html {
+    --background-color: #FFFFFF;
+    --main-color: #3C1C50;
+    --main-accent: #F6D488;
+    --main-border: #d1d1d1;
+    --main-hover: #e3e3e7;
+}
+
+body {
+    margin: 0;
+}
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+button.themeToggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 6px 12px;
+  background-color: #666;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
